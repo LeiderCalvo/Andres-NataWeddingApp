@@ -1,0 +1,41 @@
+.dressing {
+    padding-top: 7rem;
+}
+
+.dressing .josephine {
+    font-size: 6rem;
+    margin-right: 65px;
+    letter-spacing: 0.001rem;
+}
+
+.dressing #title2 {
+    margin-top: -2rem;
+    font-size: 3.8rem;
+    margin-left: 9rem;
+    letter-spacing: 0.001rem;
+}
+
+.dressing p:first-of-type {
+    margin-top: 5rem;
+}
+
+.dressing h2 {
+    color: #DDDAC9;
+    font-size: 4rem;
+    margin-top: 9.5rem;
+    margin-bottom: 2rem;
+}
+
+.dressing h2:first-of-type {
+    margin-top: 6.2rem;
+    margin-bottom: 6.2rem;
+}
+
+.dressing img {
+    width: 78%;
+    margin-top: 5.5rem;
+}
+
+.dressing h2:last-of-type {
+    margin-top: 7rem;
+}

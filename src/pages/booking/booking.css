@@ -1,0 +1,21 @@
+.booking {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    padding-top: 6rem;
+}
+
+.booking :first-child {
+    font-size: 6rem;
+    letter-spacing: 0.0001rem;
+    margin-right: 2rem;
+}
+
+.booking :last-child {
+    margin-top: -26px;
+    font-size: 4rem;
+    margin-left: 9rem;
+    letter-spacing: 0.001rem;
+}

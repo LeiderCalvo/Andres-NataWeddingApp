@@ -1,0 +1,50 @@
+#payments .first {
+    padding: 7rem 0;
+}
+
+#payments .first img {
+    width: 3rem;
+    margin-bottom: 30px;
+}
+
+#payments .first :last-child {
+    margin-top: 2rem;
+}
+
+
+#payments .second {
+    background-color: #1F280C;
+    color: white;
+    padding: 6rem;
+}
+
+#payments .second> :first-child {
+    margin-bottom: 6rem;
+}
+
+#payments .second .option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+#payments .second .option p {
+    margin-top: 0.6rem;
+}
+
+#payments .second .option .row {
+    align-items: center;
+}
+
+#payments .second .option .row img {
+    filter: brightness(2);
+    width: 1.8rem;
+    margin-right: 1.5rem;
+}
+
+#payments .second .option .row h3 {
+    color: #AEBB93;
+    font-size: 1.3rem;
+}

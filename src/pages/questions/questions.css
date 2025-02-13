@@ -1,0 +1,15 @@
+.questions {
+    padding: 6rem 0;
+}
+
+.questions> :first-child {
+    font-size: 1rem;
+}
+
+.questions>p {
+    margin-bottom: 2rem;
+}
+
+.questions> :last-child {
+    margin-bottom: 0;
+}

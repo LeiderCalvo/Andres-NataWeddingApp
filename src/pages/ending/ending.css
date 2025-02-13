@@ -1,0 +1,29 @@
+.ending .palms {
+    background-color: #C6D2B1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 14/9;
+}
+
+.ending .palms>p {
+    margin-top: 2rem;
+}
+
+.ending img:first-of-type {
+    width: 60%;
+    filter: brightness(25%) sepia() hue-rotate(45deg);
+    margin: 6.5rem 0;
+}
+
+.ending img:last-of-type {
+    width: 100%;
+    margin-bottom: -2rem;
+}

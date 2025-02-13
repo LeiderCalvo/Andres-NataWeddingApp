@@ -1,0 +1,20 @@
+.waiting {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    padding-top: 6.8rem;
+}
+
+.waiting :first-child {
+    font-size: 6rem;
+    margin-right: 16rem;
+    letter-spacing: 0.001rem;
+}
+
+.waiting :last-child {
+    margin-top: -2rem;
+    font-size: 4rem;
+    letter-spacing: 0.14rem;
+}

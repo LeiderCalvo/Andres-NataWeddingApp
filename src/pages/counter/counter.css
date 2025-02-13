@@ -1,0 +1,44 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+    color: white;
+}
+
+.counter>h1 {
+    font-size: 5rem;
+    letter-spacing: 0.001rem;
+}
+
+.counter>.row {
+    margin-top: -4px;
+}
+
+.counter>.row>.time {
+    display: flex;
+    flex-direction: row;
+}
+
+.counter>.row>.time>.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter>.row>.time>.separator {
+    font-size: 3.4rem;
+    letter-spacing: 0.001rem;
+    margin: 0 0.58rem;
+}
+
+.counter>.row>.time>.content>p {
+    font-size: 0.7rem;
+    margin-top: -0.45rem;
+}
+
+.counter>.row>.time>.content>h1 {
+    min-width: 42px;
+}

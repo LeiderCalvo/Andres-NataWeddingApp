@@ -1,0 +1,21 @@
+.history {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    padding-top: 10rem;
+}
+
+.history :first-child {
+    font-size: 6.5rem;
+    margin-right: 65px;
+    letter-spacing: 0.001rem;
+}
+
+.history :last-child {
+    margin-top: -2.5rem;
+    font-size: 4rem;
+    margin-left: 9rem;
+    letter-spacing: 0.001rem;
+}

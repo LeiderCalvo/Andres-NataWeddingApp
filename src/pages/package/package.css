@@ -1,0 +1,105 @@
+.package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.package>img {
+    width: 24%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.package>p {
+    margin-bottom: 2.3rem;
+}
+
+.package>ul {
+    list-style: none;
+    margin-bottom: 6rem;
+}
+
+.package>section {
+    background-color: #40472D;
+    color: white;
+    width: 85%;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.package>section>#title-one {
+    font-size: 6rem;
+    letter-spacing: 0.001rem;
+}
+
+.package>section>#title-two {
+    font-size: 4rem;
+    margin-top: -25px;
+    letter-spacing: 0.001rem;
+    margin-bottom: 2rem;
+}
+
+.package>section>.price {
+    margin-top: 6.8rem;
+}
+
+.package>section>.price>.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.package>section>.price .value {
+    margin-top: 2.2rem;
+}
+
+.package>section h3 {
+    color: #AEBB93;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.package>section h2 {
+    font-size: 3.5rem;
+    letter-spacing: 0.001rem;
+}
+
+.package>section h5 {
+    font-size: 3rem;
+    margin-bottom: -10px;
+}
+
+.package>section img {
+    filter: brightness(2);
+    width: 2rem;
+}
+
+.package>section>li {
+    margin-top: 3.5rem;
+    font-size: 0.8rem;
+}
+
+.package>article {
+    padding: 6.5rem 0;
+}
+
+.package>article>p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.package>article>p>strong {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.package>article>h6 {
+    line-height: 1.1rem;
+    font-weight: normal;
+    margin-top: 6rem;
+    font-size: 0.8rem;
+}

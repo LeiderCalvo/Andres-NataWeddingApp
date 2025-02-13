@@ -1,0 +1,14 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 18/9;
+}
+
+.details>img {
+    margin-top: 2rem;
+    width: 3rem;
+    margin-bottom: 3.4rem;
+}

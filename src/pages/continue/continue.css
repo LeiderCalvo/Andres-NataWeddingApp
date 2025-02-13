@@ -1,0 +1,22 @@
+.continue {
+    background-color: #C6D2B1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 38%;
+}
+
+.continue>h3 {
+    margin-top: 1.8rem;
+    font-size: 1.3rem;
+    color: black;
+    letter-spacing: 0.4rem;
+    margin-bottom: 40px;
+}

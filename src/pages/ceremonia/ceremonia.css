@@ -1,0 +1,39 @@
+.ceremonia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 7rem;
+}
+
+#ceremonia-title {
+    font-size: 6rem;
+    margin-right: 80px;
+    margin-bottom: -20px;
+}
+
+.ceremonia .row {
+    margin-bottom: 65px;
+}
+
+.ceremonia .row :first-child {
+    font-size: 4rem;
+    margin-bottom: 5px;
+    margin-left: 3rem;
+    margin-top: -1rem;
+    margin-right: 1rem;
+}
+
+.ceremonia .row :last-child {
+    font-size: 4.2rem;
+}
+
+.ceremonia>p {
+    margin-bottom: 20px;
+    padding: 0.5rem;
+}
+
+.ceremonia>img {
+    width: 100%;
+    margin-top: 4rem;
+}

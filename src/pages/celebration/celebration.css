@@ -1,0 +1,40 @@
+.celebration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.celebration>section {
+    width: 100%;
+    padding-top: 8rem;
+    background-color: #1F280C;
+    color: white;
+    height: 50vh;
+}
+
+.celebration>section :first-child {
+    font-size: 5rem;
+    letter-spacing: 0.001rem;
+}
+
+.celebration>section :last-child {
+    font-size: 3.4rem;
+    margin-top: -1.5rem;
+    letter-spacing: 0.001rem;
+}
+
+#celebration-happy {
+    width: 68%;
+    margin-top: -55%;
+}
+
+#celebration-palm {
+    width: 3.2rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.celebration p {
+    margin-top: 2.2rem;
+}

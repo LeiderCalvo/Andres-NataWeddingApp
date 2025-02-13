@@ -1,0 +1,52 @@
+.invitation-section1 {
+    background-color: #C6D2B1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 38%;
+}
+
+.invitation-section1>p {
+    font-size: 1.3rem;
+    letter-spacing: 0.7rem;
+    line-height: 2.5rem;
+}
+
+.invitation-section1> :first-child {
+    margin-top: 1.4rem;
+    color: black;
+}
+
+.invitation-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 62%;
+}
+
+.invitation-section2>img {
+    width: 23%;
+    margin-top: 20px;
+    margin-bottom: 5.5rem;
+}
+
+.invitation-section2>p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.invitation-section2>button {
+    font-size: 1rem;
+    margin-top: 4.5rem;
+    width: 70%;
+}
