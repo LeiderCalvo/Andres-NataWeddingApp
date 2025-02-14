@@ -82,7 +82,7 @@ export const Form = () => {
                 <img src={palm} alt="a palm" />
                 <h3>¡SEPARA TU CUPO!</h3>
             </div>
-            <p>ABONO DE CONFIRMACIÓN: $175.000<br /><strong>FECHA: 28/02/25</strong></p>
+            <p>ABONO DE CONFIRMACIÓN: $175.000<br /><strong>FECHA: 08/03/25</strong></p>
         </div>
 
 

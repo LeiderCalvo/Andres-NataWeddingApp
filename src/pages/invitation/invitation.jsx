@@ -21,7 +21,9 @@ export const Invitation = () => {
             <p >
                 PREPARA TUS MALETAS Y<br />ACOMPÁÑANOS A DAR EL SÍ EN<br />LA COSTA CARIBEÑA DE COLOMBIA.
             </p>
-            <button>¡QUIERO IR!</button>
+            <button onClick={() => {
+                document.getElementById("celebration-palm").scrollIntoView({ behavior: "smooth" })
+            }}>¡QUIERO IR!</button>
         </article>
     </ScreenContainer>
 }

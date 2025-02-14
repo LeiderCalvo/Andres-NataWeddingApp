@@ -10,8 +10,6 @@ import { Doubts } from "./pages/doubts/doubts";
 import { Package } from "./pages/package/package";
 import { Continue } from "./pages/continue/continue";
 import { Celebration } from "./pages/celebration/celebration";
-import { Details } from "./pages/details/details";
-import { History } from "./pages/history/history";
 import { Vers } from "./pages/vers/vers";
 import { Invitation } from "./pages/invitation/invitation";
 import { Dressing } from "./pages/dressing/dressing";
