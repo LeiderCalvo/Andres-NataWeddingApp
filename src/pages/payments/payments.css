@@ -4,11 +4,16 @@
 
 #payments .first img {
     width: 3rem;
+    margin-top: 3rem;
     margin-bottom: 30px;
 }
 
 #payments .first :last-child {
     margin-top: 2rem;
+}
+
+#payments .first :first-child {
+    margin-bottom: 2rem;
 }
 
 

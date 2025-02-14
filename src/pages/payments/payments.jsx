@@ -4,6 +4,9 @@ import "./payments.css"
 export const Payments = () => {
     return <article id="payments">
         <div className="first">
+            <p><strong>PUEDES HACERLO A TRAVÉS DE NEQUI,<br />EFECTIVO O BANCOLOMBIA:</strong></p>
+
+            <p>NEQUI:<br />BANCOLOMBIA</p>
             <img src={palm} alt="a palm" />
             <p><strong>PERO ESO NO ES TODO:</strong></p>
             <p>PUEDES ELEGIR ALGUNO DE LOS<br />SIGUIENTES PLANES DE PAGO PARA<br />MAYOR COMODIDAD:</p>

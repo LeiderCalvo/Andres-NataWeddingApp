@@ -39,8 +39,8 @@ export const Form = () => {
             <label className="poppins-bold" htmlFor="email">CORREO ELECTRÓNICO</label>
             <input className="poppins-bold" id="email" name="email" type="email" placeholder="PEPITO@GMAIL.COM" />
 
-            <label className="poppins-bold" htmlFor="other">NOMBRE COMPLETO</label>
-            <input className="poppins-bold" id="other" name="other" type="text" placeholder="NOMBRE Y APELLIDO" />
+            <label className="poppins-bold" htmlFor="other">CANTIDAD</label>
+            <input className="poppins-bold" id="other" name="other" type="number" placeholder="2" />
 
             <button type="submit">¡QUIERO IR!</button>
         </form>
@@ -55,8 +55,6 @@ export const Form = () => {
             <p>ABONO DE CONFIRMACIÓN: $175.000<br /><strong>FECHA: 28/02/25</strong></p>
         </div>
 
-        <p><strong>PUEDES HACERLO A TRAVÉS DE NEQUI,<br />EFECTIVO O BANCOLOMBIA:</strong></p>
 
-        <p>NEQUI:<br />BANCOLOMBIA</p>
     </article>
 }
