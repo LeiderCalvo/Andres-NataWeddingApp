@@ -38,7 +38,8 @@ form label {
     text-align: left;
 }
 
-form input {
+form input,
+select {
     width: 100%;
     background-color: white;
     padding: 1.2rem 1rem;
@@ -50,13 +51,67 @@ form input {
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     text-align: left;
+    color: #888484;
 }
 
-form input::placeholder {
+select:invalid {
     color: #D1D1D1;
 }
 
-form input:focus {
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form div>button {
+    width: 14%;
+    margin: 0;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: white;
+    color: #ADADAD;
+}
+
+form div>button.selected {
+    background-color: #40472D;
+    color: white;
+}
+
+form div>button:disabled {
+    background-color: #D8D8D8;
+    color: #D1D1D1;
+}
+
+form option {
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../../assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 95%;
+}
+
+form input::placeholder,
+select::placeholder {
+    color: #D1D1D1;
+}
+
+form input:focus,
+select:focus {
     outline-width: 0;
 }
 

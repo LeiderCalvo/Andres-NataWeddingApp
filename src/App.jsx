@@ -25,8 +25,8 @@ function App() {
     <>
       <Header />
       <Invitation />
-      <History />
-      <Details />
+      {/* <History />
+      <Details /> */}
       {/* history */}
       <Vers />
       <Ceremonia />

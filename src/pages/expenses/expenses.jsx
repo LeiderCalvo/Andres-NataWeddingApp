@@ -28,7 +28,7 @@ export const Expenses = () => {
                     <img src={palm} alt="a palm" />
                     <h3>MAQUILLAJE Y PEINADO</h3>
                 </div>
-                <p>UN SOLO PAGO: $380.000<br /><strong>FECHA: 1/09/25</strong></p>
+                <p>UN SOLO PAGO: $420.000<br /><strong>FECHA: 1/09/25</strong></p>
             </div>
         </section>
     </article>

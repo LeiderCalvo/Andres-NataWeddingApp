@@ -5,7 +5,7 @@
 }
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   color: #3E4729;
   background-color: #fff;
   letter-spacing: 0.2rem;
@@ -79,6 +79,10 @@ button {
   font-style: normal;
   letter-spacing: 0.4rem;
   max-width: 70vw;
+}
+
+button:focus {
+  outline-width: 0;
 }
 
 button:hover {
